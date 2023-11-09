@@ -1,0 +1,3 @@
+# 项目排除路径
+/demo/${project.build.directory}/classes/
+/demo/${project.build.directory}/test-classes/
