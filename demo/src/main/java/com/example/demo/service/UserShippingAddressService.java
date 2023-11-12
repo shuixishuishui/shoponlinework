@@ -2,6 +2,7 @@ package com.example.demo.service;
 
 import com.example.demo.entity.UserShippingAddress;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.example.demo.vo.AddressVO;
 
 /**
  * <p>
@@ -10,5 +11,9 @@ import com.baomidou.mybatisplus.extension.service.IService;
 
  */
 public interface UserShippingAddressService extends IService<UserShippingAddress> {
+
+    Integer saveShippingAddress(AddressVO addressVO);
+
+    Integer editShoppingAddress(AddressVO addressVO);
 
 }
